@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:paddingLeft="55px"
+        android:paddingTop="12px"
+        android:text="SHOPPING  SITE"
+        android:textColor="#381080"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="[COMPANY,INCHES,RAM,WEIGHT,PRICE]"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="save"
+        android:text="SEARCH"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="549dp"
+        android:text="Dell:1 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  Apple:2\nAsus:3\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t  Acer:4\nLenovo:5\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  HP:6\nChuwi:7 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t MSI:8\nMicrosoft:9 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Huawei:10\nToshiba:11\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t Mediacom:12\nFujitsu:13 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Google:14\nSamsung:15\t\t\t\t\t\t\t\t\t\t\t\t\t Razer:16\nVero:17 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Xiaomi:18\nLG:19\n
+"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+
+
+</LinearLayout>
