@@ -2,8 +2,8 @@
 
 A recommendation model based on MACHINE LEARNING.
 The model is integrated with ANDROID APP, 
-to give proper understanding of the working of our Recommender system.
-So,basically our Model uses
+to give proper understanding of the working of the Recommender system.
+So,basically the Model uses
 Machine Learning using Python tools and Libraries
 Android App using Android Studio.
 
